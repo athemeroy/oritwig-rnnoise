@@ -1,0 +1,59 @@
+{
+  "telegram_commit": "f2908b14133bbffbf7ab04f641ecb5bfaf533242",
+  "compiled_into_proof": false,
+  "caller": {
+    "path": "TMessagesProj/jni/voip/tgcalls/group/GroupAudioCapturePostProcessor.cpp",
+    "git_blob_sha1": "04fa08559fb088822e2b58876f3030ce022150ca",
+    "url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/tgcalls/group/GroupAudioCapturePostProcessor.cpp",
+    "observed_calls": [
+      {
+        "line": 48,
+        "symbol": "rnnoise_get_frame_size"
+      },
+      {
+        "line": 51,
+        "symbol": "rnnoise_create(default model)"
+      },
+      {
+        "line": 56,
+        "symbol": "rnnoise_destroy"
+      },
+      {
+        "line": 82,
+        "symbol": "48000 Hz mono resampling boundary"
+      },
+      {
+        "line": 97,
+        "symbol": "rnnoise_process_frame"
+      }
+    ]
+  },
+  "build": {
+    "path": "TMessagesProj/jni/voip/CMakeLists.txt",
+    "git_blob_sha1": "cdfbd2ca56d1b3fbe47d67d89237b269a2fc2aa0",
+    "url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/CMakeLists.txt",
+    "rnnoise_target_lines": [
+      15,
+      57
+    ]
+  },
+  "header": {
+    "path": "TMessagesProj/jni/voip/tgcalls/group/GroupAudioCapturePostProcessor.h",
+    "git_blob_sha1": "dee9c39c915c8fa3aca319b00269cac46631b4df",
+    "url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/tgcalls/group/GroupAudioCapturePostProcessor.h",
+    "default_enabled_macro": "USE_RNNOISE=1",
+    "lines": [
+      13,
+      15
+    ]
+  },
+  "linkage": {
+    "path": "TMessagesProj/jni/CMakeLists.txt",
+    "git_blob_sha1": "d941fc9db865c8331ef78299ba77ed9eeef0f296",
+    "url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/CMakeLists.txt",
+    "whole_archive_rnnoise_link_lines": [
+      251,
+      252
+    ]
+  }
+}

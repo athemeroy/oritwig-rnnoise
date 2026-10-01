@@ -1,0 +1,25 @@
+{
+  "cmake_version": "3.22.1",
+  "java_major": 21,
+  "ndk_revision": "27.2.12479018",
+  "non_native_entries_sha256": {
+    "AndroidManifest.xml": "ef23e8a38d81b850d2b24eb4d7af7bc3bbc1bd6372acd68b65498e0debe8d6c3",
+    "R.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "assets/oritwig-rnnoise/ADAPTER_LICENSE.txt": "40e14c6775222fb6c7853d98e0d62fad9a56ca97bbd487b58e35e1d39ae1b1d0",
+    "assets/oritwig-rnnoise/THIRD_PARTY_NOTICES.txt": "38f7a8a3e7a93434d4c59f8daabe457c0454ccf29cef6c1603cd08128aae14bc",
+    "assets/oritwig-rnnoise/source-manifest.json": "65663ed14e46770e63d1ea5b03d50c63f90f06eb1f29cee24da1732ce0ee8a14",
+    "classes.jar": "9c63d5038979098bee1dac91fb6c5715c0c3d1eb78f0fcde90c6ba03cf5e8af9",
+    "proguard.txt": "e73b076bef928f09f77a0c29219960ed972d163993c7ae6f355882e03373f9b6"
+  },
+  "normalization": [
+    "--strip-debug",
+    "--remove-section=.note.gnu.build-id"
+  ],
+  "normalized_native_sha256": {
+    "arm64-v8a": "3698f3c82363f598e4002378de3d898947a58034015f5a946c804bd40026f8ff",
+    "armeabi-v7a": "dad22e556bc66b123c22119b888dfabc6e274859eb616bb8d1695395712b882b",
+    "x86": "623241b57636a9c4535a77fa7b9dd4f0c01eb1ebbe0437e4794fcb76592b8bbd",
+    "x86_64": "805f9b19d85a63bb202f11b1e12aa99a30c07fe2f72b57a41afacd6d79581ac5"
+  },
+  "reviewed_aar_sha256": "209062235d53d8018dbc6bc11e278cbe2b2ad69641bf663dabcb759c3847e13c"
+}

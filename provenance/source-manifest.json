@@ -1,0 +1,180 @@
+{
+  "repository": "https://github.com/DrKLO/Telegram",
+  "telegram_commit": "f2908b14133bbffbf7ab04f641ecb5bfaf533242",
+  "source_path": "TMessagesProj/jni/voip/rnnoise",
+  "source_tree_sha1": "91c3012f2d1c6b357b879be725ca3df50bca50a5",
+  "authorship": "Xiph/Mozilla RNNoise and listed upstream contributors; vendored/used by Telegram",
+  "vendored_file_count": 21,
+  "vendored_bytes": 536397,
+  "modified_upstream_files": [],
+  "files": [
+    {
+      "path": "AUTHORS",
+      "bytes": 37,
+      "git_blob_sha1": "7cd8b9be6de90010f6c31b1b3bd2bea8aa64fce7",
+      "sha256": "348b0956050157b718a11e1464633619b709b19b45172f336cef2205aa0cec63",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/AUTHORS",
+      "modified": false
+    },
+    {
+      "path": "COPYING",
+      "bytes": 1581,
+      "git_blob_sha1": "01ea4b1a2ac025fd9daa73a031b06c01fc57ed81",
+      "sha256": "e2f59ff41d9d03adc3dcf3deff170f8c8cf4a6eb4a9b174762a7656d23200ffa",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/COPYING",
+      "modified": false
+    },
+    {
+      "path": "README",
+      "bytes": 596,
+      "git_blob_sha1": "4158a9be023c38e829b84d058f58ca13502f75bd",
+      "sha256": "4c8e3d0119ab2b3a585b690d07b0f7f6492f9eb7c3c764e940dac943b409054d",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/README",
+      "modified": false
+    },
+    {
+      "path": "include/rnnoise.h",
+      "bytes": 3307,
+      "git_blob_sha1": "c4215d96d5c82a1db6655a098faff223c385e0b2",
+      "sha256": "9d6c8bd5607d1795b870b2a094ee2ad08cc239cae0c0c584a701a809811156f6",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/include/rnnoise.h",
+      "modified": false
+    },
+    {
+      "path": "src/_kiss_fft_guts.h",
+      "bytes": 6010,
+      "git_blob_sha1": "17392b3e90977b74049049b7fa01a9f8cb0fc093",
+      "sha256": "0214dfe2aabb3b81d88fe814b8253fc2ec6da12bbbc98e08c1011a5bd60e3b29",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/src/_kiss_fft_guts.h",
+      "modified": false
+    },
+    {
+      "path": "src/arch.h",
+      "bytes": 7628,
+      "git_blob_sha1": "52de62334b71a7d07fac3daa4ae6c104d63d0718",
+      "sha256": "1686a3ca5817bb7d99049a1801c6ab3a7e91a5d0a6804b1c1cafb36e5eeb62f8",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/src/arch.h",
+      "modified": false
+    },
+    {
+      "path": "src/celt_lpc.c",
+      "bytes": 7596,
+      "git_blob_sha1": "521351e9deb63cfa706f1cd9c06d9aaf36032dcb",
+      "sha256": "18b48a49671cf91dfa887263baa0eecd4c15e66b706367ddd4c561312536104d",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/src/celt_lpc.c",
+      "modified": false
+    },
+    {
+      "path": "src/celt_lpc.h",
+      "bytes": 2040,
+      "git_blob_sha1": "34e0ff99353804ba5719b5febfaa9ecdbd4a89c0",
+      "sha256": "7729cea359579ad962c8b50d0e3b9ff9203a3e6a549040e2440e4f4722805c03",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/src/celt_lpc.h",
+      "modified": false
+    },
+    {
+      "path": "src/common.h",
+      "bytes": 1232,
+      "git_blob_sha1": "5005bfffcb0a69cd5a97e4ad3226ec590286b143",
+      "sha256": "fa6069db8f7fd18d79d5bea55cded6f9019570b2886908323270d07225c7c0ce",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/src/common.h",
+      "modified": false
+    },
+    {
+      "path": "src/denoise.c",
+      "bytes": 18258,
+      "git_blob_sha1": "5a628440dcdfd73c55e02ac91524f1ad1e36beb8",
+      "sha256": "17e1fa284b9f1401374e80efd5f66b87f1d2d78a4116eb2360853885ae55ac4f",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/src/denoise.c",
+      "modified": false
+    },
+    {
+      "path": "src/kiss_fft.c",
+      "bytes": 16937,
+      "git_blob_sha1": "d6b9f26d0c5469cc2aef19493eca19c7eb909442",
+      "sha256": "c2cadd75dbefa1f04f66528b217eed96cb6aa0cd6e87cb80cb4b96bab8b3e50a",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/src/kiss_fft.c",
+      "modified": false
+    },
+    {
+      "path": "src/kiss_fft.h",
+      "bytes": 6352,
+      "git_blob_sha1": "b2fe9a4776b010bb360d1145ad82e94241bb8fd1",
+      "sha256": "ae7f295d1eebb0d19312934de91659b1e852fc8bb433402d4b3146037cb32f0a",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/src/kiss_fft.h",
+      "modified": false
+    },
+    {
+      "path": "src/opus_types.h",
+      "bytes": 4954,
+      "git_blob_sha1": "71808266655a1502105ea4c68f15e8ff0be932e4",
+      "sha256": "e2c1075e26567b8d57706d2f0042e36d5d440721fc3fd27a6fce9f0fc8a31557",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/src/opus_types.h",
+      "modified": false
+    },
+    {
+      "path": "src/pitch.c",
+      "bytes": 13931,
+      "git_blob_sha1": "bd101a6cc19c7dec0bfb961cf0a5f0dbcb4da133",
+      "sha256": "74a26d1b8e2e856febf4045c57f9c409dce75040b9f29a40e5d6e6323dfa45e3",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/src/pitch.c",
+      "modified": false
+    },
+    {
+      "path": "src/pitch.h",
+      "bytes": 4682,
+      "git_blob_sha1": "9bd31b49ee8fbd0c1557f88f4c7c791eca49e954",
+      "sha256": "f6939f0b88052506cbe7b1d6b4afd4ead41bedbab80183ec0c4672df0bfae9c2",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/src/pitch.h",
+      "modified": false
+    },
+    {
+      "path": "src/rnn.c",
+      "bytes": 5884,
+      "git_blob_sha1": "c54958ebf5fd2a097556cb7b4be7d38c07f636fb",
+      "sha256": "44f369ccf7c67064a46f064a3294486fb017ff68772b01de1c759b79c429f231",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/src/rnn.c",
+      "modified": false
+    },
+    {
+      "path": "src/rnn.h",
+      "bytes": 2212,
+      "git_blob_sha1": "31b962fc6ef9e9f6f2ef16b660638e649fe6e367",
+      "sha256": "a2da02dbe5320bc318674fac9ecb536db174109526e2fa7870e6c5ce45335649",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/src/rnn.h",
+      "modified": false
+    },
+    {
+      "path": "src/rnn_data.c",
+      "bytes": 425119,
+      "git_blob_sha1": "22c53165e48de3c3d9020e35bc6d37c9d38b90dd",
+      "sha256": "7b90ed18f065a34597d80b4c00e140a7c5eb6380ef8c9c6bf265384c944ae708",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/src/rnn_data.c",
+      "modified": false
+    },
+    {
+      "path": "src/rnn_data.h",
+      "bytes": 545,
+      "git_blob_sha1": "f2186fe076a02aebdd9c4ee0cb05d07370c9c461",
+      "sha256": "e756aad79f6f0710cd1fa4abfd9db3da693e92ac3a3a90051e2c969578452653",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/src/rnn_data.h",
+      "modified": false
+    },
+    {
+      "path": "src/rnn_reader.c",
+      "bytes": 5192,
+      "git_blob_sha1": "2a031db118d34274bc77ff7e8b8def3de16bab7a",
+      "sha256": "8e6cbb1e0ecdfcf800765fc5685d4fb1d239f104b6e7be94a4b71a3d5d8f6bd1",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/src/rnn_reader.c",
+      "modified": false
+    },
+    {
+      "path": "src/tansig_table.h",
+      "bytes": 2304,
+      "git_blob_sha1": "c76f844a72f428eb0c1abf87f399acc8074118ca",
+      "sha256": "835fcdf08d5b92e249fbe9ba6cdd9758688a5fdf134efb9da0e42989e8c18b8a",
+      "source_url": "https://github.com/DrKLO/Telegram/blob/f2908b14133bbffbf7ab04f641ecb5bfaf533242/TMessagesProj/jni/voip/rnnoise/src/tansig_table.h",
+      "modified": false
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+ORITWIG_JNI_1.0 {
+  global: Java_org_oritwig_audio_RnnoiseDenoiser_*;
+  local: *;
+};
